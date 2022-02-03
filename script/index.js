@@ -1,1 +1,0 @@
-alert("EL JS FUNCIONA"); 
