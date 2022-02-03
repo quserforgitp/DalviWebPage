@@ -1,7 +1,34 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
 body
 {
     background-image: url('../src/img/img_tarde.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.header
+{
+    background: turquoise;
+}
+
+.header__nav
+{
+    background: yellowgreen;
+    display: flex;
+}
+
+.header__nav__list
+{
+    display: flex;
+    justify-content: space-evenly;
+    background: darksalmon;
+    width: 966px;
+    align-items: center;
 }
