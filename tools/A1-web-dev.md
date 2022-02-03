@@ -8,6 +8,8 @@ _Las etiquetas usadas como contenedores respetan el orden jerárquico establecid
 _Esta estructura permite un buen posicionamiento de CEO_
 
 ### Etiquetas Obligatorias
+
+```
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,7 +32,7 @@ _Esta estructura permite un buen posicionamiento de CEO_
     </main>
 </body>
 </html>
-
+```
 
 ## CSS 📌
 
