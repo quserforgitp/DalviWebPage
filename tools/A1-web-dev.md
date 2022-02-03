@@ -47,7 +47,7 @@ _Su estructura sintáctica consta de: **BLOQUE, ELEMENTO y MODIFICADOR**_
 _nombrando un bloque_
 
 ```
-.footer
+footer
 ```
 
 *ELEMENTO:_Es aquello que va dentro de la etiqueta contenedora que es el footer en este caso_
@@ -55,7 +55,7 @@ _nombrando un bloque_
 _nombrando un elemento dentro del bloque_
 
 ```
-.footer__information
+footer__information
 ```
 
 *MODIFICADOR:_Así se le llama a la variación que le das en el nombre a un elemento que quieras_
@@ -64,5 +64,5 @@ _nombrando un elemento dentro del bloque_
 _nombrando un modificador_
 
 ```
-.footer__information--aboutme
+footer__information--aboutme
 ```
