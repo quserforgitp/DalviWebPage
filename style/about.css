@@ -86,3 +86,21 @@ a
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.main__image-container__button-container
+{
+    /* border: 10px solid green; */
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.main__image-container__button-container--button
+{
+    /* border: 5px solid red; */
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+}
