@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none; /*para quitarle el efecto de subrayado a los links*/
+}
+
+.header
+{
+    background-color: yellowgreen;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.header__nav
+{
+    display: flex;
+}
+
+.header__nav__ul
+{
+    list-style-type: none; /*para quitarle los puntos a los elementos de la lista desordenada*/
+    display: flex;
+    align-items: center;
+    /* border: 3px solid salmon; */
+    width: 920px;
+    justify-content: space-evenly;
+}
+
+.header__nav__ul--li-home, .header__nav__ul--li-about
+{
+    /* border: 3px solid crimson; */
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.header__nav__ul--li-home-link, .header__nav__ul--li-about-link
+{
+    color: rgba(255, 255, 255, 0.808);
+}
