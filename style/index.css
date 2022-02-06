@@ -87,7 +87,7 @@ a, li
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /*este los alinea de forma vertical (no es necesario)*/
 }
 
 .main__container--button button
