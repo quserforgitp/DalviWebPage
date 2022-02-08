@@ -104,3 +104,53 @@ a
     width: 100px;
     height: 30px;
 }
+
+.footer
+{
+    /* width: 100%; */
+    min-height: 80px;
+    background-color: black;
+    /* color: white; */
+}
+
+.footer__list-container__ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: whitesmoke; /*para que se vean ubicados los puntos de la lista*/
+}
+
+.footer__list-container__ul--youtube
+{
+    margin-top: 10px; 
+    margin-right:10px;
+    margin-left: 10px;
+    /* border: 10px solid red; */
+}
+
+.footer__list-container__ul--whatsapp
+{
+    /* border: 10px solid green; */
+    margin-top: 10px; 
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.footer__list-container__ul--fb
+{
+    /* border: 10px solid yellow; */
+    margin-top: 10px; 
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.footer__list-container__ul--instagram
+{
+
+   /* border: 10px solid blue; */ /*los border son para ubicar "el limite" de los elemntos*/
+   margin-top: 10px; 
+   margin-right:20px;
+   margin-left: 10px;
+}
