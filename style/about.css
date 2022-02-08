@@ -95,6 +95,8 @@ a
     height: 50px;
 }
 
+
+
 .main__image-container__button-container--button
 {
     /* border: 5px solid red; */
@@ -105,52 +107,45 @@ a
     height: 30px;
 }
 
+.main__contenedor--tutorial
+{
+    border: 5px solid black;
+    justify-content: center;
+}
+
+.main__contendedor--pasos-tuto{
+    border: 3px solid red;
+    display: flex;
+}
+
 .footer
 {
     /* width: 100%; */
     min-height: 80px;
     background-color: black;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    min-height: 150px;
     /* color: white; */
+    /* border: 5px solid red; */
+}
+
+.footer__list-container
+{
+    display: flex;
+    /* border: 5px solid yellow; */
 }
 
 .footer__list-container__ul
 {
     list-style: none;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
-    color: whitesmoke; /*para que se vean ubicados los puntos de la lista*/
-}
-
-.footer__list-container__ul--youtube
-{
-    margin-top: 10px; 
-    margin-right:10px;
-    margin-left: 10px;
-    /* border: 10px solid red; */
-}
-
-.footer__list-container__ul--whatsapp
-{
-    /* border: 10px solid green; */
-    margin-top: 10px; 
-    margin-right:10px;
-    margin-left: 10px;
-}
-
-.footer__list-container__ul--fb
-{
-    /* border: 10px solid yellow; */
-    margin-top: 10px; 
-    margin-right:10px;
-    margin-left: 10px;
-}
-
-.footer__list-container__ul--instagram
-{
-
-   /* border: 10px solid blue; */ /*los border son para ubicar "el limite" de los elemntos*/
-   margin-top: 10px; 
-   margin-right:20px;
-   margin-left: 10px;
+    /* border: 5px solid green; */
+    min-width: 300px;
+    padding: 0px; /*si se lo quitas se desacomoda el logo de yt*/
+    /* color: whitesmoke; para que se vean ubicados los puntos de la lista */
 }
