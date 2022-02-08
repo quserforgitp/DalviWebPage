@@ -6,10 +6,13 @@
 
 body
 {
-    background-image: url('../src/img/img_tarde.png');
+    background: linear-gradient(rgba(5,7,12,0.5), rgba(5,7,12,0.5)), url('../src/img/img_tarde.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a, li
@@ -18,6 +21,7 @@ a, li
     list-style: none;
 }
 
+/* ---Estilizando la barra de navegación.--- */
 
 .header
 {
@@ -28,6 +32,7 @@ a, li
 {
     background: yellowgreen;
     display: flex;
+    justify-content: center;
 }
 
 .header__nav__list
@@ -96,4 +101,42 @@ a, li
     height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
+}
+
+/* --- Estilización del footer.--- */
+
+.footer
+{
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65));
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+
+.footer__address
+{
+    display: flex;
+    /* background: yellow; */
+    width: 600px;
+    justify-content: space-evenly;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer__contact
+{
+    display: flex;
+    /* background: slateblue; */
+    width: 300px;
+    justify-content: space-between;
+    padding: 0%;
+    opacity: 0.5;
+}
+
+.footer__contact li a 
+{
+    color: white;
 }
