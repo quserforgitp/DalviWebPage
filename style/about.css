@@ -49,7 +49,7 @@ a
     /* border: 5px solid red; */
     min-height: 600px;
     /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 255))), url("/src/img/img_noche.png"); */
-    background-image: url("/src/img/img_noche.png");
+    background-image: url("../src/img/img_noche.png");
     background-attachment: scroll;
     background-size: 100% 100%;
     background-repeat: no-repeat;
