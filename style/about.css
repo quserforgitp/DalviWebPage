@@ -131,7 +131,7 @@ a
    border: 4px solid black; */
 }
 
-.logo-container
+.organism-logo-container
 {
    display: flex;
    align-items: flex-start;
@@ -140,7 +140,7 @@ a
    height: 120px;
 }
 
-.logo
+.organism-logo
 {
    height: 170px;
    width: 170px;
