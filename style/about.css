@@ -11,42 +11,32 @@ a
 .header
 {
     background-color: yellowgreen;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px
 }
 
-.header__nav
+.main-nav-bar
 {
     display: flex;
 }
 
-.header__nav__ul
+.nav-list
 {
     list-style-type: none; /*para quitarle los puntos a los elementos de la lista desordenada*/
     display: flex;
     align-items: center;
-    /* border: 3px solid salmon; */
     width: 920px;
     justify-content: space-evenly;
 }
 
-.header__nav__ul--li-home, .header__nav__ul--li-about
+.nav-list__link, .nav-list__link
 {
-    /* border: 3px solid crimson; */
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: bold;
     font-size: x-large;
-}
-
-/* para añadir color al texto de los links */
-.header__nav__ul--li-home-link, .header__nav__ul--li-about-link
-{
     color: rgba(255, 255, 255, 0.808);
 }
 
-.main__image-container
+.dalvi-logo-container
 {
-    /* border: 5px solid red; */
     min-height: 600px;
     /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(255, 255, 255, 255))), url("/src/img/img_noche.png"); */
     background-image: url("../src/img/img_noche.png");
@@ -55,12 +45,8 @@ a
     background-repeat: no-repeat;
 }
 
-.main__contenedor-prueba
+.dalvi-downloader-text-title
 {
-    margin-top: 80px;
-}
-
-.main__image-container__h1-title{
     display: flex;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -68,28 +54,25 @@ a
     align-items: center;
     justify-content: center;
     height: 200px;
-    /* border: 10px solid white; */
 }
 
-.main__input-container
+.url-video-input-container
 {
-    /* border: 10px solid white; */
     display: flex;
     justify-content: center;
 }
 
-.main__input-container--input
+.url-video-input
 {
-    /* border: 3px solid black; */
+    text-align: center;
     width: 500px;
     height: 30px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.main__image-container__button-container
+.download-button-container
 {
-    /* border: 10px solid green; */
     display: flex;
     justify-content: center;
     height: 50px;
@@ -97,9 +80,8 @@ a
 
 
 
-.main__image-container__button-container--button
+.download-button
 {
-    /* border: 5px solid red; */
     margin: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -121,14 +103,13 @@ a
 
 .social-media-container
 {
-   /* background-color: white;
-   border: 4px solid white; */
+/*por si necesitas mover el contenedor con todo dentro de él*/
 }
 
 .social-media
 {
-   /* background-color: black;
-   border: 4px solid black; */
+    color:rgba(255, 255, 255, 0.808)
+    /*por si necesitas mover social media o aplicar algun estilo diferente*/
 }
 
 .organism-logo-container
