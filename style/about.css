@@ -89,17 +89,111 @@ a
     height: 30px;
 }
 
-.main__contenedor--tutorial
+.download-tutorial
 {
-    border: 5px solid black;
-    justify-content: center;
+ background-color: #ffffff;
 }
 
-.main__contendedor--pasos-tuto{
-    border: 3px solid red;
+.download-tutorial-title
+{
+    padding-top: 50px;
+    font-size: 70px;
+    font-family: open sans,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #4a474c;
+}
+
+.tutorial-steps
+{
+    padding-top: 120px;
+}
+
+.image-tutorial-container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.text-tutorial-container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.step__text-description
+{
+    font-size: 20px;
+    text-align: center;
+    max-width: 150px;
+    color: #4a474c;
+    font-family: open sans,sans-serif;    
+}
+
+.tutorial-steps__step
+{
     display: flex;
 }
 
+.circles
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.circle-number-one
+{
+    font-weight: 600px;
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #c8dcfa;
+    color: #4285f4;
+    text-align: center;
+    margin-right: 20px;
+    font-family: open sans,sans-serif;
+}
+
+.circle-number-two
+{
+    font-weight: 600px;
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #fac8c8;
+    color: #f44542;
+    text-align: center;
+    margin-right: 20px;
+    font-family: open sans,sans-serif;
+}
+
+.circle-number-three
+{
+    font-weight: 600px;
+    font-size: 45px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #cafac8;
+    color: #37df59;
+    text-align: center;
+    margin-right: 20px;
+    font-family: open sans,sans-serif;
+}
+
+.step__img
+{
+    width: 230px;
+}
 
 .social-media-container
 {
